@@ -1,0 +1,29 @@
+programa {
+   funcao inicio() {
+    real notap1
+    real notap2
+    real resultado
+     escreva("qual sua notap1: ")
+      leia(notap1)
+
+      escreva("qual sua notap2: ")
+      leia(notap2)
+
+      resultado = (notap1+notap2)/2
+
+       escreva("sua nota é: ", resultado)
+          se
+         (resultado >=6)
+         {
+         escreva(",aprovado")
+        }
+          senao se 
+          (resultado >=5)
+          {
+          escreva(",recuperaçao")
+          }
+          senao
+         {
+          escreva(",reprovado")
+          }
+  }}
